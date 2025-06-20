@@ -1,0 +1,213 @@
+.pageContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homePage {
+  padding-top: 10%;
+}
+.wrapper {
+  width: 100%;
+  padding: 0% 2%;
+}
+.homeSliderBox {
+  width: 100%;
+  height: 27vw;
+  border-radius: 35px;
+  position: relative;
+  background: #f9fbf2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+.homeBg1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.hsTextBox {
+  width: 63%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.hsImgBox {
+  width: 37%;
+  /* border: 1px solid rgb(23, 168, 101); */
+  display: flex;
+  justify-content: start;
+}
+.homeBHeader {
+  font-size: 44px;
+  color: #006b83;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.homeBSubHeader {
+  font-size: 20px;
+  font-family: Lato;
+  color: rgb(68, 68, 68);
+}
+.hsTextBox p {
+  width: 70%;
+}
+.serviceSection {
+  width: 100%;
+  margin: 8% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionHeader {
+  font-size: 25px;
+  font-weight: 600;
+  color: #383838;
+  margin-bottom: 20px;
+}
+.sectionSubHeader {
+  font-size: 15px;
+  font-weight: 500;
+  color: #495057;
+}
+.serviceCardsBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.serviceBottomBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+.serviceBleftBox {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: #f3f3f3;
+  border: 1px solid #e4e4e4;
+  padding: 30px 20px;
+  border-radius: 16px;
+}
+.sblTextBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+.serviceBRightBox {
+  width: 50%;
+  background: #006b83;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px;
+  border-radius: 16px;
+}
+.sblTextBox samp {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+}
+.sblTextBox p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #495057;
+}
+.sblImgBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.sblImgBox div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serviceBRightBox .sblTextBox samp {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  font-family: Lato;
+}
+.serviceBRightBox .sblTextBox p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  font-family: Lato;
+}
+.serviceBRightBox .SecondaryBtn p {
+  font-weight: 600;
+}
+.whoWeAreSection {
+  width: 100%;
+  background: #e5f1fc;
+  margin: 8% 0;
+  padding: 9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.wwasTextBox {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+.webStorBtnBox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.wTitle1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 10px;
+}
+.wTitle2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #383838;
+  margin-bottom: 20px;
+}
+.wTitle3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 40px;
+}
+.wTitle4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #605d5d;
+  margin-bottom: 10px;
+}
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+}
+
+@media only screen and (min-width: 1500px) {
+  .wrapper {
+    padding: 0% 9%;
+  }
+}

@@ -1,0 +1,25 @@
+.serviceCard {
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
+  border-radius: 16px;
+}
+.serviceCard .serverCardImg {
+  width: 48px;
+}
+.serviceCard .navArrow {
+  width: 50px;
+}
+.serviceCard p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+}
+.serviceCard samp {
+  font-size: 15px;
+  font-weight: 500;
+  color: #495057;
+}

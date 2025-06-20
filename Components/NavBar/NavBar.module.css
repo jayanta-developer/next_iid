@@ -1,0 +1,113 @@
+.NavBar {
+  width: 96%;
+  height: 80px;
+  background: linear-gradient(
+    298.89deg,
+    rgba(37, 58, 115, 0.98) 15.56%,
+    rgba(3, 110, 101, 0.87) 95.31%
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  position: absolute;
+  top: 27px;
+  padding-right: 20px;
+}
+.NavTabBox {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 17px;
+}
+.NavImgBox {
+  width: 20%;
+  padding-left: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.cartImg {
+  cursor: pointer;
+}
+.navItem {
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.6s;
+  position: relative;
+  cursor: pointer;
+}
+.navSubItemBox {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.navItem:hover {
+  background: #ffffff1a;
+}
+.navItemActive {
+  background: #ffffff1a;
+}
+.navItem p {
+  color: #fff;
+  font-size: 14px;
+  font-family: Lato;
+}
+.navItem .downArrow {
+  position: absolute;
+  right: 0px;
+}
+.subTitleNav {
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  border-radius: 12px;
+  z-index: 9;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.subNav_Item {
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+  transition: all 0.5s;
+  cursor: pointer;
+  background: #fff;
+}
+.subNav_Item:hover {
+  background: #eeeeee;
+}
+.subNav_Item p {
+  color: #494949;
+  font-size: 14px;
+  font-weight: 500;
+}
+.NavTabBox .appBtn {
+  min-width: 85px;
+}
+
+/* Tabe view */
+@media only screen and (min-width: 768px) {
+}
+
+/* Desktop view */
+@media only screen and (min-width: 1000px) {
+}
+
+@media only screen and (min-width: 1500px) {
+  .NavBar {
+    width: 82%;
+  }
+}

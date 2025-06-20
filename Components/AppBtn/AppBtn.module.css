@@ -1,0 +1,27 @@
+.appBtn {
+  height: 40px;
+  padding: 0px 20px;
+  border: 1px #fff solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.appBtn:hover {
+  box-shadow: rgba(0, 0, 0, 0.76) 0px 5px 15px;
+}
+.appBtn p {
+  color: #fff;
+  font-family: Lato;
+  line-height: 20px;
+}
+.SecondaryBtn {
+  background: #fff;
+}
+.SecondaryBtn p {
+  color: #000;
+}
