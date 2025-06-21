@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
-import Link from "next/link";
-import Images from '../../public/assets/Images';
+// import Link from "next/link";
+// import Images from '../../public/assets/Images';
 // import { HandleNavigateClick } from "../Tools";
 
 export default function Footer() {
