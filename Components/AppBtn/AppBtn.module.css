@@ -1,5 +1,6 @@
 .appBtn {
   height: 40px;
+  min-width: 85px;
   padding: 0px 20px;
   border: 1px #fff solid;
   display: flex;
